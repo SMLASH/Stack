@@ -6,17 +6,18 @@ typedef struct node{
     struct node *next;
 }node;
 
-int *create_stk(node *node, int value){
+int *create_stk(int value){
+    node *node;
     node = malloc(sizeof(node));
     node->value = value;
     node->next = NULL;
     return &node;
 }
 
-int *push(node *node,int value,int *past){
+int *push(node *node,int value,int *past) {
     malloc(sizeof(node));
     node->value = value;
-    node->next = past;
+    node->next = &*past;
     return &node;
 }
 
@@ -28,11 +29,9 @@ int *pop(node *node){
 }
 
 int main(){
-    node node1;
-    int *pointer = &node1;
-    int stk = create_stk(pointer, 8);
+    int stk = create_stk(8);
     node node2;
-    int pointer2 = &node2;
+    int *pointer2 = &node2;
     stk = push(pointer2, 2, stk);
     pop(stk);
 }
