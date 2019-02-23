@@ -1,0 +1,3 @@
+/home/makar/CLionProjects/untitled9/STACK/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/makar/CLionProjects/untitled9/STACK/cmake-build-debug/CMakeFiles/STACK.dir
+/home/makar/CLionProjects/untitled9/STACK/cmake-build-debug/CMakeFiles/edit_cache.dir

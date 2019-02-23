@@ -1,37 +1,38 @@
 #include <stdio.h>
 #include <malloc.h>
 
+#include "node.h"
+
 typedef struct node{
     int value;
     struct node *next;
 }node;
 
-int *create_stk(int value){
-    node *node;
-    node = malloc(sizeof(node));
-    node->value = value;
-    node->next = NULL;
-    return &node;
+node *create_stk(int value){
+    node *head = malloc(sizeof(node));
+    head->value = value;
+    head->next = NULL;
+    return head;
 }
 
-int *push(node *node,int value,int *past) {
-    malloc(sizeof(node));
-    node->value = value;
-    node->next = &*past;
-    return &node;
+node *push_stk(node *stack, int value) {
+    node *head = malloc(sizeof(node));
+    head->value = value;
+    head->next = stack;
+    return head;
 }
 
-int *pop(node *node){
-    int *next = node->next;
-    printf("%d", node->value);
-    free(node);
+
+node *pop_stk(node *stack, int *result){
+
+    node *next = stack->next;
+    *result = stack->value;
+    free(stack);
     return next;
 }
 
 int main(){
-    int stk = create_stk(8);
-    node node2;
-    int *pointer2 = &node2;
-    stk = push(pointer2, 2, stk);
-    pop(stk);
+    myqueue *queue = create_queue(5);
+    push(queue, 10);
+    printf("%d %d", pop(queue), pop(queue));
 }

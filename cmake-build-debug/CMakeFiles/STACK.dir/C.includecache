@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/makar/CLionProjects/untitled9/STACK/main.c
+stdio.h
+-
+malloc.h
+-
+node.h
+/home/makar/CLionProjects/untitled9/STACK/node.h
+
+/home/makar/CLionProjects/untitled9/STACK/node.h
+
