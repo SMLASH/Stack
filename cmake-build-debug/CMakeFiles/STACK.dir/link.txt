@@ -1,1 +1,1 @@
-/usr/bin/cc -g   CMakeFiles/STACK.dir/main.c.o CMakeFiles/STACK.dir/node.c.o  -o STACK 
+/usr/bin/cc -g   CMakeFiles/STACK.dir/main.c.o CMakeFiles/STACK.dir/node.c.o CMakeFiles/STACK.dir/stack.c.o  -o STACK 

@@ -87,6 +87,12 @@
 		<Unit filename="/home/makar/CLionProjects/untitled9/STACK/node.h">
 			<Option target="STACK"/>
 		</Unit>
+		<Unit filename="/home/makar/CLionProjects/untitled9/STACK/stack.c">
+			<Option target="STACK"/>
+		</Unit>
+		<Unit filename="/home/makar/CLionProjects/untitled9/STACK/stack.h">
+			<Option target="STACK"/>
+		</Unit>
 		<Unit filename="/home/makar/CLionProjects/untitled9/STACK/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

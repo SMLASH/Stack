@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "/home/makar/CLionProjects/untitled9/STACK/main.c" "/home/makar/CLionProjects/untitled9/STACK/cmake-build-debug/CMakeFiles/STACK.dir/main.c.o"
   "/home/makar/CLionProjects/untitled9/STACK/node.c" "/home/makar/CLionProjects/untitled9/STACK/cmake-build-debug/CMakeFiles/STACK.dir/node.c.o"
+  "/home/makar/CLionProjects/untitled9/STACK/stack.c" "/home/makar/CLionProjects/untitled9/STACK/cmake-build-debug/CMakeFiles/STACK.dir/stack.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

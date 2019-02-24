@@ -3,4 +3,4 @@ project(STACK C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(STACK main.c node.c node.h)
+add_executable(STACK main.c node.c node.h stack.c stack.h)

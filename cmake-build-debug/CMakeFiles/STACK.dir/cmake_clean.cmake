@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/STACK.dir/main.c.o"
   "CMakeFiles/STACK.dir/node.c.o"
+  "CMakeFiles/STACK.dir/stack.c.o"
   "STACK.pdb"
   "STACK"
 )

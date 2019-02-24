@@ -177,6 +177,33 @@ node.c.s:
 	$(MAKE) -f CMakeFiles/STACK.dir/build.make CMakeFiles/STACK.dir/node.c.s
 .PHONY : node.c.s
 
+stack.o: stack.c.o
+
+.PHONY : stack.o
+
+# target to build an object file
+stack.c.o:
+	$(MAKE) -f CMakeFiles/STACK.dir/build.make CMakeFiles/STACK.dir/stack.c.o
+.PHONY : stack.c.o
+
+stack.i: stack.c.i
+
+.PHONY : stack.i
+
+# target to preprocess a source file
+stack.c.i:
+	$(MAKE) -f CMakeFiles/STACK.dir/build.make CMakeFiles/STACK.dir/stack.c.i
+.PHONY : stack.c.i
+
+stack.s: stack.c.s
+
+.PHONY : stack.s
+
+# target to generate assembly for a file
+stack.c.s:
+	$(MAKE) -f CMakeFiles/STACK.dir/build.make CMakeFiles/STACK.dir/stack.c.s
+.PHONY : stack.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -192,6 +219,9 @@ help:
 	@echo "... node.o"
 	@echo "... node.i"
 	@echo "... node.s"
+	@echo "... stack.o"
+	@echo "... stack.i"
+	@echo "... stack.s"
 .PHONY : help
 
 
